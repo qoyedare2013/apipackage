@@ -1,5 +1,4 @@
 import React from 'react'
-
 import { useState } from 'react'
 import { useEffect } from 'react'
 import ListComponent from './ListComponent'
@@ -43,6 +42,7 @@ const ParentComponent = () => {
              </li>
       ))}
         </ol>
+        <ListComponent/>
 
     </div>
   )
